@@ -32,5 +32,3 @@ class ManageUserView(generics.RetrieveUpdateAPIView):
 
         return self.request.user
     
-
-def my_function(self):
